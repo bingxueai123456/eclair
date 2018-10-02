@@ -1,0 +1,18 @@
+db:
+ dbMappers:
+   - com.ice.mapper
+ dbGroups:
+   - name: master
+     infoList:
+       - host: localhost
+         name: test
+         user: root
+         password: 123456
+         port: 3306
+   - name: slave
+     infoList:
+       - host: localhost
+         name: test
+         user: root
+         password: 123456
+         port: 3306
